@@ -1,11 +1,10 @@
 # Visual Studio console.log() Code Snippets
-JS console.log() code snippets for Visual Studio
 
 This repository includes two console.log() code snippets for Visual Studio:
 1. Creates a basic console.log("text"); statement
-..* Shortcut in JavaScript text editor: "log"
+⋅⋅* Shortcut in JavaScript text editor: "log"
 2. Creates a console.log("text", code); statement
-..* Shortcut in JavaScript text editor: "logc"
+⋅⋅* Shortcut in JavaScript text editor: "logc"
   
 To use these code snippets, add the .snippet files to your folder "Documents\Visual Studio <version number>\Code Snippets\JavaScript\My Code Snippets".
 
