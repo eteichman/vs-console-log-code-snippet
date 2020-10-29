@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Console Log Code</Title>
+            <Description>Inserts a console.log("text", code) statement.</Description>
+            <Shortcut>logc</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="JavaScript">
+                <![CDATA[console.log("$Text$", $Code$);]]>
+            </Code>
+            <Declarations>
+              <Literal>
+                <ID>Text</ID>
+                <ToolTip>Choose the text that you want to log to the Console.</ToolTip>
+                <Default>Text</Default>
+              </Literal>
+              <Literal>
+                <ID>Code</ID>
+                <ToolTip>Choose the code that you want to log to the Console.</ToolTip>
+                <Default>Code</Default>
+              </Literal>
+            </Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
